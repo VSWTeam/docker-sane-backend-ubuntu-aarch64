@@ -12,6 +12,7 @@ RUN apt-get install -y libusb-1.0-0-dev build-essential libsane-dev \
 	&& apt-get install -y git-core openssh-server \
 	&& apt-get install -y autoconf libtool \
 	&& apt install -y python3-pip python3-setuptools \
+	&& apt install -y lftp \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Compile SANE Backend.
